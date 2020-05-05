@@ -5,36 +5,69 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-
+        lesson8Examples();
+        //lesson7Examples();
+        //lesson6Examples();
+        //lesson5Examples();
         // write your code here
-        myZek();
-        myHouseExample();
-        lesson5Examples();
+        //System.out.println("Hello Java");
+        //System.out.println("This is my first sentence");
+        //System.out.println("I am new to Java");
+        //System.out.println("This Java course is cool");
+        //System.out.println("I am learning stuff every day");
 
+        //myHouseExample();
     } // End main method
-import com.fundamentals.exercises.*;{
 
-    }
+    public static void lesson8Examples() {
+        Lesson8 myEight = new Lesson8();
+        myEight.basicIfStatement(2,2);
+        myEight.basicIfElseExample(4, 4);
+        myEight.basicIfElseChainExample(33);
+        myEight.basicIfAndOrExample(108);
+        myEight.basicSwitchExample(2);
+        myEight.basicWhileExmample();
+    } // end method lesson8Examples
+
+    public static void lesson7Examples() {
+        Lesson7 mySeven = new Lesson7();
+        mySeven.basicMath();
+        mySeven.exampleModulus();
+        //myseven.addTwoNumbers();
+        mySeven.exampleAssignment();
+        mySeven.exampleLeftShift();
+        mySeven.exampleRightShift();
+        mySeven.exampleAND();
+        mySeven.exampleXOR();
+        mySeven.exampleRelational();
+        mySeven.exampleIncrement();
+        mySeven.exampleDecrement();
+    }// end method lesson7Examples
+
+    public static void lesson6Examples() {
+        Lesson6 mySix = new Lesson6();
+        mySix.exampleCharAt();
+        mySix.exampleConcat("has awesome donuts");
+        mySix.exampleEquals("LaMars");
+        System.out.println(mySix.exampleLowercase());
+        System.out.println(mySix.exampleUppercase());
+        mySix.exampleBuilder("Chocolate", 2);
+        mySix.exampleChar();
+        mySix.exampleEscape();
+    } // End method lesson6Examples
+
     public static void lesson5Examples() {
         Lesson5 myFive = new Lesson5();
         myFive.showLocalExample();
-        int example = my
-        public static void myHouseExample() {
-            House myHouse = new House();
-            myHouse.doorOpenClose();
-        } // End myHouseExample
-
-        public static void myZek() {
-            System.out.println("Hello Java");
-            System.out.println("This is my first sentence");
-            System.out.priFive.showLocalWithReturn(5, 7); // return to a variable
+        int example = myFive.showLocalWithReturn(5, 7); // return to a variable
         System.out.println(example); // print variable from line above
-        System.out.println(myFive.showLocalWithReturn(2,9)); // direct return of int
+        System.out.println(myFive.showLocalWithReturn(2, 9)); // direct return of int
         myFive.showInstanceVariable();
-        myFive.showsConversions();
-    }// end method lesson5Examples
-ntln("I am new to Java");
-        System.out.println("This Java course is cool");
-        System.out.println("I am learning stuff every day");
-    } // end method myZek
-} // end class main
+
+    } // end method lesson5Examples
+
+    public static void myHouseExample() {
+        House myHouse = new House();
+        myHouse.doorOpenClose();
+    } // End myHouseExample
+} // end class Main
