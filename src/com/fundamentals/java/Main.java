@@ -5,7 +5,9 @@ package com.fundamentals.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson8Examples();
+        lesson9Examples();
+        //beerSong();
+        //lesson8Examples();
         //lesson7Examples();
         //lesson6Examples();
         //lesson5Examples();
@@ -19,6 +21,19 @@ public class Main {
         //myHouseExample();
     } // End main method
 
+    public static void lesson9Examples() {
+        Lesson9 myNine = new Lesson9();
+        myNine.basicIntArray();
+        myNine.basicStringArray();
+        myNine.basicTwoDimensionalArray();
+        myNine.basicJaggedArray();
+    }// end method lesson9Examples
+
+    public static void beerSong() {
+        BottlesOfBeerSong song = new BottlesOfBeerSong();
+        song.timeToSing();
+    }
+
     public static void lesson8Examples() {
         Lesson8 myEight = new Lesson8();
         myEight.basicIfStatement(2,2);
@@ -27,6 +42,8 @@ public class Main {
         myEight.basicIfAndOrExample(108);
         myEight.basicSwitchExample(2);
         myEight.basicWhileExmample();
+        myEight.basicForLoopExample();
+        System.out.println(myEight.basicBranchingExample(7));
     } // end method lesson8Examples
 
     public static void lesson7Examples() {
