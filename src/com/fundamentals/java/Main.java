@@ -1,11 +1,14 @@
 package com.fundamentals.java;
 
+import com.funfamentals.lesson10.Lesson10;
+
 /* This class was created when the project
  * was created */
 public class Main {
 
     public static void main(String[] args) {
-        lesson9Examples();
+        lesson10Examples();
+        //lesson9Examples();
         //beerSong();
         //lesson8Examples();
         //lesson7Examples();
@@ -20,6 +23,17 @@ public class Main {
 
         //myHouseExample();
     } // End main method
+
+    public static void lesson10Examples() {
+        House yourHouse = new House();
+        yourHouse.doorOpenClose();
+        //yourHouse.windowOpenClose(); // cannot access
+        yourHouse.openGarage();
+        Lesson10 myTen = new Lesson10();
+        //myTen.showProtected(); //cannot access
+        //myTen.showLesson(); //cannot access
+        //end method lesson10Examples
+    }// end method lesson 10Examples
 
     public static void lesson9Examples() {
         Lesson9 myNine = new Lesson9();
