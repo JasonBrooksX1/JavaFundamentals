@@ -7,7 +7,10 @@ import com.funfamentals.lesson10.Lesson10;
 public class Main {
 
     public static void main(String[] args) {
-        lesson10Examples();
+        //myCar();
+        //lesson11Examples();
+        Lesson6Exercises();
+        //lesson10Examples();
         //lesson9Examples();
         //beerSong();
         //lesson8Examples();
@@ -20,9 +23,22 @@ public class Main {
         //System.out.println("I am new to Java");
         //System.out.println("This Java course is cool");
         //System.out.println("I am learning stuff every day");
-
         //myHouseExample();
     } // End main method
+
+    public static void myCar() {
+        Car myCar = new Car();
+        System.out.println("The doors swing backward ");
+    }// end my car
+
+    public static void lesson11Examples() {
+        House house = new House("Blue");
+        //house.foundation = "concrete";
+        house.setFoundation("concrete");
+        //house.roofType = "shingle";
+        house.setRoofType("shingle");
+        System.out.println("The foundation is made of "+house.getFoundation());
+    }// end method lesson11Examples
 
     public static void lesson10Examples() {
         House yourHouse = new House();
@@ -75,16 +91,24 @@ public class Main {
         mySeven.exampleDecrement();
     }// end method lesson7Examples
 
+
+    public static void Lesson6Exercises() {
+        Lesson6Exercises zybok = new Lesson6Exercises();
+        System.out.println(zybok.bigword());
+        zybok.pilcrowSign();
+
+    } // end method Pilcrow
+
     public static void lesson6Examples() {
         Lesson6 mySix = new Lesson6();
-        mySix.exampleCharAt();
-        mySix.exampleConcat("has awesome donuts");
-        mySix.exampleEquals("LaMars");
-        System.out.println(mySix.exampleLowercase());
-        System.out.println(mySix.exampleUppercase());
-        mySix.exampleBuilder("Chocolate", 2);
-        mySix.exampleChar();
-        mySix.exampleEscape();
+        //mySix.exampleCharAt();
+        //mySix.exampleConcat("has awesome donuts");
+        //mySix.exampleEquals("LaMars");
+        //System.out.println(mySix.exampleLowercase());
+        //System.out.println(mySix.exampleUppercase());
+        //mySix.exampleBuilder("Chocolate", 2);
+        //mySix.exampleChar();
+        //mySix.exampleEscape();
     } // End method lesson6Examples
 
     public static void lesson5Examples() {

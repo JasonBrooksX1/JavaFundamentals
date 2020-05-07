@@ -2,9 +2,13 @@ package com.fundamentals.java;
 
 public class Lesson6Exercises {
 
-    String myString = "lowercase";
-
-    public void lesson6flex() {
-        char myChar = myString.charAt(3);
-        System.out.println(myChar);
+    String myString = "HUUMUNGOUS";
+    public String bigword(){
+        return myString.toLowerCase();
     }
+
+    public void pilcrowSign() {
+        char c1 = '\u00B6';
+        System.out.println(c1);
+    }
+}
