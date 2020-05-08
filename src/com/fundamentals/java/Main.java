@@ -9,13 +9,14 @@ public class Main {
     public static void main(String[] args) {
         //myCar();
         //lesson11Examples();
-        Lesson6Exercises();
+        //Lesson6Exercises();
         //lesson10Examples();
         //lesson9Examples();
         //beerSong();
         //lesson8Examples();
         //lesson7Examples();
         //lesson6Examples();
+        lesson5Exercises();
         //lesson5Examples();
         // write your code here
         //System.out.println("Hello Java");
@@ -110,6 +111,22 @@ public class Main {
         //mySix.exampleChar();
         //mySix.exampleEscape();
     } // End method lesson6Examples
+
+    public static void lesson5Exercises() {
+        Lesson5Exercises my5exp = new Lesson5Exercises();
+        my5exp.showDocalExample();
+        my5exp.showXocalExample();
+        my5exp.showBocalExample();
+        //my5exp.showLocalExample();
+        //int example = my5exp.showLocalWithReturn(5, 7); // return to a variable
+        //System.out.println(example); // print variable from line above
+        //System.out.println(my5exp.showLocalWithReturn(2, 9)); // direct return of int
+        //my5exp.showInstanceVariable();
+        //my5exp.showsConversions();
+        my5exp.showsWconversion();
+        my5exp.showsNconversion();
+
+    } // end method lesson5Exercises
 
     public static void lesson5Examples() {
         Lesson5 myFive = new Lesson5();
