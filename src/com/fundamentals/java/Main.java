@@ -1,6 +1,5 @@
 package com.fundamentals.java;
 
-import com.funfamentals.lesson10.Lesson10;
 
 /* This class was created when the project
  * was created */
@@ -9,14 +8,14 @@ public class Main {
     public static void main(String[] args) {
         //myCar();
         //lesson11Examples();
-        //Lesson6Exercises();
+        Lesson6Exercises();
         //lesson10Examples();
         //lesson9Examples();
         //beerSong();
         //lesson8Examples();
         //lesson7Examples();
         //lesson6Examples();
-        lesson5Exercises();
+        //lesson5Exercises();
         //lesson5Examples();
         // write your code here
         //System.out.println("Hello Java");
@@ -46,7 +45,7 @@ public class Main {
         yourHouse.doorOpenClose();
         //yourHouse.windowOpenClose(); // cannot access
         yourHouse.openGarage();
-        Lesson10 myTen = new Lesson10();
+        Lesson6 myTen = new Lesson6();
         //myTen.showProtected(); //cannot access
         //myTen.showLesson(); //cannot access
         //end method lesson10Examples
