@@ -18,6 +18,10 @@ public class House {
         System.out.println("The door color is "+ doorColor);
     }// end constructor
 
+    public House(String doorColor, int windowSize) {
+        this("concrete", "Shingle", doorColor, windowSize);
+    }
+
     public House(String foundation, String roofType, String doorColor, int windowSize) {
         this.foundation = foundation;
         this.roofType = roofType;
@@ -62,14 +66,19 @@ public class House {
         return windowSize;
     }// end property method getWindowSize
 
+
+    //original method
     public void doorOpenClose() {
         System.out.println("The door is open");
-        windowOpenClose();
-
 }// end method doorOpenClose
 
+    //overload method
+    public void doorOpenClose(String message) {
+        System.out.println(message);
+    }// end method doorOpenClose
+
     /* The below methods are demonstrating lesson 10 Access modifiers*/
-    //
+    // private means only accessable from the class
     private void windowOpenClose() {
     System.out.println("The window is open or closed");
     }// end method windowOpenClose
