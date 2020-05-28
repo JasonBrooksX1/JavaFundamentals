@@ -39,35 +39,24 @@ public class Lesson5Exercises {
     }
 
     public void showsWconversion() {
-        byte ll2 = myByte; // implicit or widening conversion
-        int val = myInt;
-        short charlie = myShort;
-        long delta = myLong;
-        int alpha = myInt;
-        float beta = myFloat;
+        int ll2 = myByte; // implicit or widening conversion
+        float val = myInt;
+        long charlie = myShort;
         System.out.println(ll2);
         System.out.println(val);
         System.out.println(charlie);
-        System.out.println(delta);
-        System.out.println(alpha);
-        System.out.println(beta);
 
     }
 
     public void showsNconversion() {
-        double ll2 = myDouble;
-        long val = myLong;
-        float charlie = myFloat;
-        int delta = myInt;
-        long alpha = myLong;
-        short beta = myShort;
+        long ll2 = (long)myDouble;
+        short val = (short)myLong;
+        int charlie = (int) myFloat;
 
         System.out.println(ll2);
         System.out.println(val);
         System.out.println(charlie);
-        System.out.println(delta);
-        System.out.println(alpha);
-        System.out.println(beta);
+
     }
 
 }
